@@ -10,7 +10,7 @@
 
 ### Link do Projeto na vercel:
 
-<p>Adicionar link aqui</p>
+<p>https://portfolio-itachi.vercel.app/</p>
 
 ![alt text][def]
 
