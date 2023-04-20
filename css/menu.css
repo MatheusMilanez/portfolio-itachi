@@ -1,0 +1,179 @@
+.container-section{
+    display: flex;
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100vh;
+    background-color: var(--preto-semi);
+}
+
+.logo-pessoal{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--preto-full);
+    margin: 0 0 40px 0;
+}
+
+
+
+.container-li{
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--branco);
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    font-size: 28px;
+    color: brown;
+    transition: 1s;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+   
+    .container-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 100vh;
+        background-color: var(--preto-semi);
+    }
+   
+   
+    .logo-pessoal{
+        width: 120px;
+        height: 120px;
+    } 
+    
+    
+    
+    .container-li{
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        cursor: pointer;
+        margin: 25px 0;
+    }
+    
+    
+    nav ul li a{
+        text-decoration: none;
+        color: var(--branco);
+        transition: 0.5s;
+    }
+    
+    nav ul li a:hover {
+        font-size: 24px;
+        color: brown;
+        transition: 1s;
+    }
+}
+
+
+@media screen and (max-width:765px){
+    .container-menu{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: var(--preto-semi);
+        margin: 0 0 0 0;
+    }
+    
+    
+    .logo-pessoal{
+        width: 50px;
+        height: 50px;
+        margin: 10px 0;
+    } 
+    
+    .container-ul{
+        display: flex;
+    }
+    
+    .container-li{
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        cursor: pointer;
+        margin: 0 10px ;
+    }
+    
+    
+    nav ul li a{
+        text-decoration: none;
+        color: var(--branco);
+        transition: 0.5s;
+    }
+    
+    nav ul li a:hover {
+        font-size: 24px;
+        color: brown;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width:765px){
+    .container-menu{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: var(--preto-semi);
+        margin: 0 0 0 0;
+    }
+    
+    
+    .logo-pessoal{
+        width: 40px;
+        height: 40px;
+        margin: 10px 0;
+    } 
+    
+    .container-ul{
+        display: flex;
+    }
+    
+    .container-li{
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: capitalize;
+        cursor: pointer;
+        margin: 0 10px ;
+    }
+    
+    
+    nav ul li a{
+        text-decoration: none;
+        color: var(--branco);
+        transition: 0.5s;
+    }
+    
+    nav ul li a:hover {
+        font-size: 17px;
+        color: brown;
+        transition: 1s;
+    }
+}

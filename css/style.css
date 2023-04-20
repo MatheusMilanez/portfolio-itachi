@@ -1,0 +1,22 @@
+/*Imports*/
+@import url(menu.css);
+@import url(sobre.css);
+@import url(reset.css);
+
+
+/*Style Global*/
+:root{
+    --preto-semi:#0b0b0e;
+    --preto-full:#000000;
+    --branco:#FFF;
+}
+
+
+@media screen and (max-width:765px) {
+    .container-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
